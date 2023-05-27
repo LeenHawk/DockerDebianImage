@@ -37,5 +37,3 @@ jobs:
         tags: |
           leenhawk/debian_sid_with_docker:latest
           leenhawk/debian_sid_with_docker:${{env.TAG}}
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
